@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}New Post{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="comments">What would you like to share with word?</label>
+    <textarea name="comments" id="comments"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+  {% block comments %}
+    
+  <h>Users Comments</h1>
+    {% for allcomment in allcomments %}
+      <div name="comments" ><i><h3>{{  allcomment['username'] }}</h3></i><div style="padding: 30px;border: 1px solid blue;">{{ allcomment['comments'] }}</div></div>
+    {% endfor %}
+  {% endblock %}
+{% endblock %}
+
