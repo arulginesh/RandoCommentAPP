@@ -1,6 +1,6 @@
 # RandoCommentAPP
 This App is Developed using the Language Python 
-And the Framework I user Flash with Jinja
+And the Framework used here - Flash with Jinja
 
 Installation steps
 
