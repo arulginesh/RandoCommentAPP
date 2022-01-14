@@ -1,6 +1,6 @@
 # RandoCommentAPP
 This App is Developed using the Language Python 
-And the Framework used here - Flash with Jinja
+And the Framework used here - Flash with Jinja and the database SQLite
 
 Installation steps
 
